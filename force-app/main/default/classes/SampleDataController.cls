@@ -17,6 +17,8 @@ public with sharing class SampleDataController {
             FROM StaticResource
             WHERE Name = 'sample_data_brokers'
         ];
+        /*BugFix */
+        /*BugFix */
         String brokersJSON = brokersResource.body.toString();
         List<Broker__c> brokers = (List<Broker__c>) JSON.deserialize(
             brokersJSON,
