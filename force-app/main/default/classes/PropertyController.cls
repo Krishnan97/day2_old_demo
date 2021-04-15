@@ -122,5 +122,8 @@ public with sharing class PropertyController {
             ORDER BY CreatedDate
         ];
     }
+    public bugFixCommit() {
+        System.debug('This is my bugFix commit');
+    }
 }
 /*Commit 2*/
